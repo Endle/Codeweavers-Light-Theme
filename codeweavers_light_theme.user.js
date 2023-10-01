@@ -31,6 +31,8 @@ function editBackground() {
     $( " #sidebar-nav " ).css( "background-color", background_color );
 
 
+    $( "div.logo-symbol-bottom" ).css( "background-color", background_color );
+
     const class_background_images = ["bg-hex", "steelwall", "logo-symbol-bottom", "bg-triangles"];
 
     for (let c of class_background_images) {
